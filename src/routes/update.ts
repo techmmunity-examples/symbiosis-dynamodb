@@ -1,10 +1,10 @@
-import { Append, Plus } from "@techmmunity/symbiosis";
-import { ExampleEntity, getExampleRepository } from "entity";
+import { Append, Plus } from "@thothom/core";
+import { getExampleRepository } from "entity";
 
 export const update = async (_: any, reply: any) => {
 	const exampleRepository = getExampleRepository();
 
-	const example = await exampleRepository.upsert<ExampleEntity>(
+	const example = await exampleRepository.upsert(
 		{
 			id: "472cbfbe-d7e4-487e-acd8-b045466a826c",
 		},

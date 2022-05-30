@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="https://github.com/techmmunity/symbiosis/raw/master/resources/logo.gif" width="300" height="300" alt="">
+<img src="https://github.com/thothom/core/raw/master/resources/logo.gif" width="300" height="300" alt="">
 
-# Symbiosis DynamoDB Example
+# ThothOM DynamoDB Example
 
 [![Style Guide: Techmmunity](https://img.shields.io/badge/style%20guide-TECHMMUNITY-01d2ce?style=for-the-badge)](https://github.com/techmmunity/eslint-config)
 
 </div>
 
-Example project of `@techmmunity/symbiosis-dynamodb`.
+Example project of `@thothom/dynamodb`.
 
-See the docs at: [https://symbiosis.techmmunity.com.br/docs/plugins/dynamodb](https://symbiosis.techmmunity.com.br/docs/plugins/dynamodb)
+See the docs at: [https://thothom.com/docs/plugins/dynamodb](https://thothom.com/docs/plugins/dynamodb)
 
 ## How to test
 

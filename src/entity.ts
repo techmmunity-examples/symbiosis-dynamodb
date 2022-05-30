@@ -3,11 +3,11 @@ import {
 	Entity,
 	getGlobalRepository,
 	PrimaryGeneratedColumn,
-} from "@techmmunity/symbiosis";
+	SubEntity,
+} from "@thothom/core";
+import { Repository } from "@thothom/dynamodb";
 
-@Entity({
-	isSubEntity: true,
-})
+@SubEntity()
 export class SubExampleEntity {
 	@Column()
 	public foo: number;
@@ -28,4 +28,5 @@ export class ExampleEntity {
 	public subEntity: SubExampleEntity;
 }
 
-export const getExampleRepository = () => getGlobalRepository(ExampleEntity);
+export const getExampleRepository = () =>
+	getGlobalRepository<Repository<ExampleEntity>>(ExampleEntity);
